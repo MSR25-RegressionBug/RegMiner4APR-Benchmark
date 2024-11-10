@@ -1,0 +1,22 @@
+# OS X
+.DS_Store
+
+# IntelliJ IDEA files
+.idea/
+.idea_modules/
+*.iml
+
+# vim swap files
+*.swp
+
+# encode files
+target/
+.sonar/
+
+# test logs
+src/test/resources/maxsat/log.txt
+src/test/resources/partialmaxsat/log.txt
+src/test/resources/partialweightedmaxsat/log.txt
+
+# test temporary files
+src/test/resources/writers/temp/*.dot
