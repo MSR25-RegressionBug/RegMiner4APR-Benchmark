@@ -1,0 +1,13 @@
+Batch 0:
+Column 0:[1997, 1999, 1996]
+Column 1:[Ford, Chevy, Jeep]
+Column 2:[E350, Venture "Extended Edition", Grand Cherokee]
+Column 3:[ac, abs, moon, null, MUST SELL!
+air, moon roof, loaded]
+Column 4:[3000.00, 4900.00, 4799.00]
+Batch 1:
+Column 0:[1999, null]
+Column 1:[Chevy, null]
+Column 2:[Venture "Extended Edition, Very Large", Venture "Extended Edition"]
+Column 3:[null, null]
+Column 4:[5000.00, 4900.00]
