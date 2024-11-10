@@ -1,0 +1,48 @@
+<!--
+
+    Copyright (c) 2008-2016, XebiaLabs B.V., All rights reserved.
+
+
+    Overthere is licensed under the terms of the GPLv2
+    <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>, like most XebiaLabs Libraries.
+    There are special exceptions to the terms and conditions of the GPLv2 as it is applied to
+    this software, see the FLOSS License Exception
+    <http://github.com/xebialabs/overthere/blob/master/LICENSE>.
+
+    This program is free software; you can redistribute it and/or modify it under the terms
+    of the GNU General Public License as published by the Free Software Foundation; version 2
+    of the License.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this
+    program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth
+    Floor, Boston, MA 02110-1301  USA
+
+-->
+<s:Envelope xml:lang="en-US" xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://schemas.xmlsoap.org/ws/2004/08/addressing"
+            xmlns:rsp="http://schemas.microsoft.com/wbem/wsman/1/windows/shell"
+        >
+    <s:Header>
+        <a:Action>http://schemas.microsoft.com/wbem/wsman/1/windows/shell/ReceiveResponse</a:Action>
+        <a:MessageID>uuid:72712A7D-425C-47FE-A35D-DA7BF1864B1D</a:MessageID>
+        <a:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</a:To>
+        <a:RelatesTo>uuid:2DA65A4C-2FCC-46EF-BCDB-F6BC02E4CD57</a:RelatesTo>
+    </s:Header>
+    <s:Body>
+        <rsp:ReceiveResponse>
+            <rsp:Stream Name="stdout" CommandId="6FE4F045-D1DA-45F1-AD04-2B9499C3CA68">DQo=</rsp:Stream>
+            <rsp:Stream Name="stdout" CommandId="6FE4F045-D1DA-45F1-AD04-2B9499C3CA68">
+                QzpcVEVNUD5lY2hvIEV4aXRpbmcgd2l0aCAxNiANCkV4aXRpbmcgd2l0aCAxNg0KDQpDOlxURU1QPmV4aXQgMTYgDQo=
+            </rsp:Stream>
+            <rsp:Stream Name="stdout" CommandId="6FE4F045-D1DA-45F1-AD04-2B9499C3CA68" End="true"></rsp:Stream>
+            <rsp:Stream Name="stderr" CommandId="6FE4F045-D1DA-45F1-AD04-2B9499C3CA68" End="true"></rsp:Stream>
+            <rsp:CommandState CommandId="6FE4F045-D1DA-45F1-AD04-2B9499C3CA68"
+                              State="http://schemas.microsoft.com/wbem/wsman/1/windows/shell/CommandState/Done">
+                <rsp:ExitCode>16</rsp:ExitCode>
+            </rsp:CommandState>
+        </rsp:ReceiveResponse>
+    </s:Body>
+</s:Envelope>
