@@ -1,0 +1,45 @@
+### Java ###
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+ 
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+/bin
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+ 
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+ 
+### Maven ###
+target/
+
+# Test properties file for gitlab4j
+test-gitlab4j.properties

@@ -1,0 +1,115 @@
+{
+  "object_kind": "issue",
+  "user": {
+    "name": "Administrator",
+    "username": "root",
+    "avatar_url": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=40\u0026d=identicon"
+  },
+  "project":{
+    "name":"Gitlab Test",
+    "description":"Aut reprehenderit ut est.",
+    "web_url":"http://example.com/gitlabhq/gitlab-test",
+    "git_ssh_url":"git@example.com:gitlabhq/gitlab-test.git",
+    "git_http_url":"http://example.com/gitlabhq/gitlab-test.git",
+    "namespace":"GitlabHQ",
+    "visibility_level":20,
+    "path_with_namespace":"gitlabhq/gitlab-test",
+    "default_branch":"master",
+    "homepage":"http://example.com/gitlabhq/gitlab-test",
+    "url":"http://example.com/gitlabhq/gitlab-test.git",
+    "ssh_url":"git@example.com:gitlabhq/gitlab-test.git",
+    "http_url":"http://example.com/gitlabhq/gitlab-test.git"
+  },
+  "repository":{
+    "name": "Gitlab Test",
+    "url": "http://example.com/gitlabhq/gitlab-test.git",
+    "description": "Aut reprehenderit ut est.",
+    "homepage": "http://example.com/gitlabhq/gitlab-test"
+  },
+  "object_attributes": {
+    "id": 301,
+    "title": "New API: create/update/delete file",
+    "assignee_id": 51,
+    "author_id": 51,
+    "project_id": 14,
+    "created_at": "2013-12-03T17:15:43Z",
+    "updated_at": "2013-12-03T17:15:43Z",
+    "position": 0,
+    "description": "Create new API for manipulations with repository",
+    "state": "opened",
+    "iid": 23,
+    "url": "http://example.com/diaspora/issues/23",
+    "action": "open"
+  },
+   "assignees": [{
+    "name": "User1",
+    "username": "user1",
+    "avatar_url": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=40\u0026d=identicon"
+  }],
+  "assignee": {
+    "name": "User1",
+    "username": "user1",
+    "avatar_url": "http://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=40\u0026d=identicon"
+  },
+  "labels":[],
+  "changes": {
+    "due_date":{
+       "previous": "2020-06-01T08:00:00Z",
+       "current": "2020-02-04T08:00:00Z"
+    },
+    "confidential": {
+       "previous": false,
+       "current": true
+    },
+    "updated_at": {
+       "previous":"2019-04-12T01:10:28Z",
+       "current":"2019-04-12T01:11:33Z"
+    },
+    "updated_by_id": {
+       "previous": 2,
+       "current": 6
+    },
+    "id":{
+       "previous":123,
+       "current":456
+   	},
+    "iid":{
+       "previous":12,
+       "current":34
+    },
+    "milestone_id": {
+       "previous":0,
+       "current":1
+    },
+    "confidential": {
+       "previous":false,
+       "current":true
+    },
+    "labels": {
+      "previous": [{
+        "id": 206,
+        "title": "API",
+        "color": "#ffffff",
+        "project_id": 14,
+        "created_at": "2013-12-03T17:15:43Z",
+        "updated_at": "2013-12-03T17:15:43Z",
+        "template": false,
+        "description": "API related issues",
+        "type": "ProjectLabel",
+        "group_id": 41
+      }],
+      "current": [{
+        "id": 205,
+        "title": "Platform",
+        "color": "#123123",
+        "project_id": 14,
+        "created_at": "2013-12-03T17:15:43Z",
+        "updated_at": "2013-12-03T17:15:43Z",
+        "template": false,
+        "description": "Platform related issues",
+        "type": "ProjectLabel",
+        "group_id": 41
+      }]
+    }
+  }
+}
