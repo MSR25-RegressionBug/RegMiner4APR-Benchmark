@@ -1,0 +1,17 @@
+{
+  "name" : "Frodo Baggins",
+  "_links" : {
+    "self" : {
+      "href" : "/employees/1"
+    }
+  },
+  "_templates" : {
+    "default" : {
+      "method" : "post",
+      "properties" : [ {
+        "name" : "name",
+        "type" : "text"
+      } ]
+    }
+  }
+}

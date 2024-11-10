@@ -1,0 +1,10 @@
+target/
+.settings/
+.project
+.classpath
+.factorypath
+*.iml
+.idea
+*.orig
+.springBeans
+credentials.yml
