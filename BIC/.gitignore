@@ -1,0 +1,15 @@
+target/
+.settings/
+.classpath
+.project
+*.idea
+*.iml
+nbbuild
+nb-build.xml
+nbproject
+*.sh
+zrefactor
+.gradle/
+build/
+local.properties
+bin/
