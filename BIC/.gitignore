@@ -1,0 +1,9 @@
+target/
+.settings/
+.project
+.classpath
+*.iml
+.idea
+*.orig
+.springBeans
+credentials.yml
