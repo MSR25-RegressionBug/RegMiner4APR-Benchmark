@@ -278,8 +278,8 @@ public class FormulaFactory {
       return this.not(left);
     if (left.equals(right))
       return this.verum();
-    if (left.negate().equals(right))
-      return left.negate();
+    // if (left.negate().equals(right))
+    //   return left.negate();
     final Pair<Formula, Formula> key = new Pair<>(left, right);
     Implication implication = this.implications.get(key);
     if (implication == null) {
